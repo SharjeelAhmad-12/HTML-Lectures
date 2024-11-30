@@ -3,53 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detailed Form</title>
+    <title>Form</title>
 </head>
 <body>
     <h1>Detailed Form Example</h1>
     <form action="/submit" method="POST">
-        <!-- Text Input Field -->
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" required>
-        <br><br>
-        <!-- Email Input Field -->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br><br>
-        <!-- Password Input Field -->
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br><br>
-        <!-- Date Input Field -->
-        <label for="birthdate">Birthdate:</label>
-        <input type="date" id="birthdate" name="birthdate" required>
-        <br><br>
-        <!-- Radio Buttons -->
-        <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label>
-        <br><br>
-        <!-- Checkbox -->
-        <label for="subscribe">Subscribe to newsletter:</label>
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <br><br>
-        <!-- Dropdown (Select) -->
-        <label for="country">Country:</label>
-        <select id="country" name="country" required>
-            <option value="usa">United States</option>
-            <option value="uk">United Kingdom</option>
-            <option value="canada">Canada</option>
-            <option value="australia">Australia</option>
-        </select>
-        <br><br>
-        <!-- Textarea (for longer text) -->
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea>
-        <br><br>
+        <!-- Personal Information Fieldset -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <!-- Text Input Field -->
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your name" required>
+            <br><br>
+            <!-- Email Input Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            <!-- Password Input Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+            <!-- Date Input Field -->
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </fieldset>
+        <br>
+        <!-- Preferences Fieldset -->
+        <fieldset>
+            <legend>Preferences</legend>
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <!-- Checkbox -->
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <br><br>
+            <!-- Dropdown (Select) -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select Country</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br><br>
+            <!-- Number Input Field -->
+            <label for="phone-number">Phone Number:</label>
+            <input type="number" id="phone-number" name="phone-number" placeholder="Enter your phone number" required>
+        </fieldset>
+        <br>
+        <!-- Additional Information Fieldset -->
+        <fieldset>
+            <legend>Additional Information</legend>
+            <!-- Textarea (for longer text) -->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type here......"></textarea>
+        </fieldset>
+        <br>
+        <!-- Hidden Input -->
+        <input type="hidden" name="form-id" value="12345">
         <!-- Submit Button -->
         <button type="submit">Submit</button>
     </form>

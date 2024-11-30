@@ -37,34 +37,6 @@ Syntax:
   </tbody>
 </table>
 
-## **Rowspan and Colspan Attributes**
-
-**rowspan**: This attribute allows a cell to span multiple rows. It is used to merge cells vertically.
-**Example**: <td rowspan="2"> spans the cell across two rows.
-
-**colspan**: This attribute allows a cell to span multiple columns. It is used to merge cells horizontally.
-**Example**: <td colspan="2"> spans the cell across two columns.
-
-- Both attributes are used within <td> or <th> elements to create complex table layouts.
-
-Syntax:
-<table border="1">
-  <tr>
-    <th>Heading 1</th>
-    <th>Heading 2</th>
-    <th>Heading 3</th>
-  </tr>
-  <tr>
-    <td rowspan="2">Rowspan 2</td>
-    <td colspan="2">Colspan 2</td>
-  </tr>
-  <tr>
-    <td>Data 3</td>
-    <td>Data 4</td>
-  </tr>
-</table>
-
-
 
 ## Explanation of Tags
 <table>: Wraps the entire table.
@@ -79,5 +51,13 @@ Syntax:
 **border**: Specifies the width of the table border (e.g., border="1").
 **cellspacing**: Defines the space between the cells.
 **cellpadding**: Defines the space inside each cell.
+**Example**
+  <table border="1" cellpadding="10" cellspacing="0"> Add border ,cellpadding,cellspacing to the table.
+
 **rowspan**: This attribute allows a cell to span multiple rows. It is used to merge cells vertically.
+**Example**: <td rowspan="2"> spans the cell across two rows.
+
 **colspan**: This attribute allows a cell to span multiple columns. It is used to merge cells horizontally.
+**Example**: <td colspan="2"> spans the cell across two columns.
+
+- Both attributes are used within <td> or <th> elements to create complex table layouts.
