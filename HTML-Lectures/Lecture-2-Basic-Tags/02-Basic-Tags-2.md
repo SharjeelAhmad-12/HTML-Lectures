@@ -1,6 +1,6 @@
 ### **HTML Tags**: `<ul>`, `<ol>`, `<div>`, `<span>`, and `<button>`
 
-## 1. <ul>: `Unordered List`
+## 1. `<ul>`: `Unordered List`
 An unordered list (`<ul>`) is used to create a list of items where the order doesn't matter. Items inside the `<ul>` are typically listed using the `<li>` tag (list item).
 
 ### Syntax:
