@@ -2,13 +2,13 @@
 
 ## What is HTML?
 
-HTML stands for `**HyperText Markup Language**`. It is the standard language used to create and structure content on the web. Think of HTML as the foundation of every website; it tells the browser how to display text, images, links, and other elements on a webpage.
+HTML stands for `HyperText Markup Language`. It is the standard language used to create and structure content on the web. Think of HTML as the foundation of every website; it tells the browser how to display text, images, links, and other elements on a webpage.
 
 - It is not a programing language Like C++,C#,C,Phyton,Java it is a markup language
 
-- `**HyperText:**` This is text that has links to other pages or places. When you click on a link in a webpage, it takes you to another page or to a specific part of the same page. It's what allows you to easily jump from one page to another on the internet.
+- `HyperText:` This is text that has links to other pages or places. When you click on a link in a webpage, it takes you to another page or to a specific part of the same page. It's what allows you to easily jump from one page to another on the internet.
 
-- `**Markup Language:**` This is a system that uses special codes to tell the computer how to display text and other things like images or videos. It's like giving the computer instructions on how to organize and show everything on a webpage. These instructions, called "tags," help define things like headings, paragraphs, and links.
+- `Markup Language:` This is a system that uses special codes to tell the computer how to display text and other things like images or videos. It's like giving the computer instructions on how to organize and show everything on a webpage. These instructions, called "tags," help define things like headings, paragraphs, and links.
 
 ## Why Do We Use HTML?
 

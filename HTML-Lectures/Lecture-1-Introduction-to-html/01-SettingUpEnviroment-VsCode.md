@@ -1,4 +1,4 @@
-# `Setting Up VS Code and Starting an HTML Project`
+# Setting Up VS Code and Starting an HTML Project
 
 ## Introduction
 
@@ -34,13 +34,13 @@ VS Code comes with a rich ecosystem of extensions that can help make web develop
 
 ### Using the Live Server Extension:
 
-The `**Live Server**` extension is a tool that allows you to launch your HTML file in the browser and automatically reload the page whenever you make changes to the code. This is especially useful for web development because it provides a real-time preview of your work.
+The `Live Server` extension is a tool that allows you to launch your HTML file in the browser and automatically reload the page whenever you make changes to the code. This is especially useful for web development because it provides a real-time preview of your work.
 
 ### How to Use Live Server:
 
 1. After installing the **Live Server** extension, open your HTML file (e.g., `index.html`) in VS Code.
 2. Right-click anywhere inside the `index.html` file.
-3. From the context menu, select `**Open with Live Server**`.
+3. From the context menu, select `Open with Live Server`.
 4. Your default browser will open and display your HTML file. Whenever you make changes to the code in VS Code and save the file, the browser will automatically refresh to show the updated content.
 
 ### Example:

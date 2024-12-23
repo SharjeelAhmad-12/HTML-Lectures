@@ -5,6 +5,7 @@
 Block-level elements take up the full width of their container and start on a new line. These elements can contain other block-level and inline elements.
 
 ### Common Block-Level Elements:
+
 - `<div>` — A generic container for grouping content.
 - `<p>` — Defines a paragraph of text.
 - `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` — Define headings (with `<h1>` being the most important).
@@ -30,6 +31,7 @@ Block-level elements take up the full width of their container and start on a ne
 Inline elements do not start on a new line and take up only as much width as necessary. They are used for styling or modifying specific parts of content within block-level elements.
 
 ### Common Inline Elements:
+
 - `<a>` — Defines a hyperlink.
 - `<span>` — A generic container used to style a part of a text or content.
 - `<img>` — Embeds an image.
@@ -56,10 +58,9 @@ Inline elements do not start on a new line and take up only as much width as nec
 ## How to Check if an Element is Inline or Block-Level
 
 ### 1. **Using Browser Developer Tools:**
-   - Open the browser's developer tools (usually by pressing `F12` or `Right-click > Inspect`).
-   - Select the element you want to inspect.
-   - In the **Elements** tab, check the `display` property of the element in the **Styles** pane. 
-     - **Block-level elements** will have `display: block` (or similar, like `display: flex` or `display: grid`).
-     - **Inline elements** will have `display: inline`.
 
-
+- Open the browser's developer tools (usually by pressing `F12` or `Right-click > Inspect`).
+- Select the element you want to inspect.
+- In the **Elements** tab, check the `display` property of the element in the **Styles** pane.
+- **Block-level elements** will have `display: block` (or similar, like `display: flex` or `display: grid`).
+- **Inline elements** will have `display: inline`.

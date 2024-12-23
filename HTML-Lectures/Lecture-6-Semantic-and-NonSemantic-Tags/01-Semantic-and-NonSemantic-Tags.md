@@ -6,9 +6,9 @@ Semantic HTML refers to HTML elements that have a specific meaning and clearly d
 
 ## **Characteristics of Semantic HTML**:
 
-- `**Clear Purpose**`: The name of the element reflects its content and purpose.
-- `**Improved Accessibility**`: Screen readers and assistive technologies can understand the structure of the content better.
-- `**SEO Benefits**`: Search engines can better interpret and rank the content.
+- `Clear Purpose`: The name of the element reflects its content and purpose.
+- `Improved Accessibility`: Screen readers and assistive technologies can understand the structure of the content better.
+- `SEO Benefits`: Search engines can better interpret and rank the content.
 
 ## **Common Semantic Elements**:
 
@@ -20,29 +20,29 @@ Semantic HTML refers to HTML elements that have a specific meaning and clearly d
 - `<aside>`: Represents side content, such as a sidebar or additional notes.
 - `<footer>`: Represents footer information, often including copyright or contact details.
 
-
 ## What is Non-Semantic HTML?
 
 Non-semantic HTML refers to elements that do not have a meaningful name or purpose. These elements do not describe their content or structure clearly, which can make the code less readable and harder to maintain.
 
 ## **Characteristics of Non-Semantic HTML**:
 
-- `**Generic Purpose**`: Elements do not indicate the type of content they contain.
-- `**Less Readable**`: It can be harder for developers and browsers to interpret the content's intent.
-- `**Limited Accessibility and SEO Benefits**`: Assistive technologies and search engines may struggle to understand the document structure.
+- `Generic Purpose`: Elements do not indicate the type of content they contain.
+- `Less Readable`: It can be harder for developers and browsers to interpret the content's intent.
+- `Limited Accessibility and SEO Benefits`: Assistive technologies and search engines may struggle to understand the document structure.
 
 ## **Common Non-Semantic Elements**:
+
 - `<div>`: Used as a generic container.
 - `<span>`: Used for inline styling or generic text grouping.
 
-
 ## Why Use Semantic HTML?
+
 ## Benefits of Semantic HTML:
 
-- `**Improved Code Readability**`: Semantic tags make it easier for developers to understand the structure of the code.
-- `**Accessibility**`: Semantic elements improve the experience for users relying on screen readers.
-- `**Better SEO**`: Search engines rank content more effectively when the structure is clear.
-- `**Maintainability**`: Semantic HTML helps in organizing code and makes future updates easier.
+- `Improved Code Readability`: Semantic tags make it easier for developers to understand the structure of the code.
+- `Accessibility`: Semantic elements improve the experience for users relying on screen readers.
+- `Better SEO`: Search engines rank content more effectively when the structure is clear.
+- `Maintainability`: Semantic HTML helps in organizing code and makes future updates easier.
 
 ## When to Use Non-Semantic HTML:
 
@@ -50,4 +50,5 @@ Non-semantic HTML refers to elements that do not have a meaningful name or purpo
 - For inline styles or small sections of text without a clear structural role.
 
 # **Conclusion**:
+
 Always prefer semantic HTML for better readability, accessibility, and SEO. Use non-semantic elements sparingly and only when necessary.

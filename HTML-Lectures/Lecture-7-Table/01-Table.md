@@ -49,19 +49,19 @@ Syntax:
 
 ## Explanation of Tags
 
-- `**<table>**`: Wraps the entire table.
-- `**<caption>**`: Provides a title for the table, which is placed above the table.
-- `**<thead>**`: Groups the header row(s) and is typically used for column headers.
-- `**<tbody>**`: Groups the main body content of the table.
-- `**<tr>**`: Defines a row in the table.
-- `**<th>**`: Defines a header cell. By default, text inside a <th> is bold and centered.
-- `**<td>**`: Defines a data cell. These cells hold the main content of the table.
+- `<table>`: Wraps the entire table.
+- `<caption>`: Provides a title for the table, which is placed above the table.
+- `<thead>`: Groups the header row(s) and is typically used for column headers.
+- `<tbody>`: Groups the main body content of the table.
+- `<tr>`: Defines a row in the table.
+- `<th>`: Defines a header cell. By default, text inside a `<th>` is bold and centered.
+- `<td>`: Defines a data cell. These cells hold the main content of the table.
 
 ## Table Attributes
 
-- `**border**`: Specifies the width of the table border (e.g., border="1").
-- `**cellspacing**`: Defines the space between the cells.
-- `**cellpadding**`: Defines the space inside each cell.
+- `border`: Specifies the width of the table border (e.g., border="1").
+- `cellspacing`: Defines the space between the cells.
+- `cellpadding`: Defines the space inside each cell.
 
 ## **Example**
 

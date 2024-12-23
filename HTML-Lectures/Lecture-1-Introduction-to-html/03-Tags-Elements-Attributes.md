@@ -44,4 +44,6 @@ An HTML attribute provides additional information about an element. Attributes a
 `src` is an attribute of the `<img>` element, specifying the source file for the image.
 `alt` is another attribute that provides alternative text for the image, which is useful for accessibility purposes.
 
-### In HTML, some tags consist of both opening and closing tags, such as `<p>` and `</p>` for paragraphs, while others have only an opening tag, like `<img>` for images.
+-----
+
+In HTML, some tags consist of both opening and closing tags, such as `<p>` and `</p>` for paragraphs, while others have only an opening tag, like `<img>` for images.

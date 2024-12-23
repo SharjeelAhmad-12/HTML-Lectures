@@ -1,6 +1,6 @@
 ### **HTML Tags**: Headings, Paragraph, Image, and Anchor
 
-HTML (HyperText Markup Language) provides a set of tags that help structure and format content on a webpage. Below, we explore the purpose and usage of four essential tags: `**Headings**`, `**Paragraph**`,`**Image**`, and `**Anchor**`.
+HTML (HyperText Markup Language) provides a set of tags that help structure and format content on a webpage. Below, we explore the purpose and usage of four essential tags: `Headings`, `Paragraph`,`Image`, and `Anchor`.
 
 ---
 
@@ -46,15 +46,15 @@ The` <img> `tag is used to embed images into a webpage. It does not have a closi
 
 ## ***Common Attributes:***
 
-- `**src**`(Required): Specifies the image file's URL or path.
-- `**alt**`(Required for accessibility): Provides alternative text if the image cannot load.
-- `**width and height**`:Define the size of the image (in pixels or percentage).
+- `src`(Required): Specifies the image file's URL or path.
+- `alt`(Required for accessibility): Provides alternative text if the image cannot load.
+- `width and height`:Define the size of the image (in pixels or percentage).
 
 ## Example:
 ```html
 <img src="example-image.jpg" alt="A beautiful landscape" width="600" height="400">
 ```
-## `**Linking an Image in a Folder**`:
+## Linking an Image in a Folder:
 If your image is in a folder, you specify the relative path:
 
 ### Example:
@@ -69,8 +69,8 @@ The `<a>` tag creates hyperlinks, allowing users to navigate to other webpages, 
 
 **Common Attributes**:
 
-- `**href**`: The URL or path of the linked page or resource.
-- `**target**`: Specifies where to open the linked document (_self by default or _blank to open in a new tab).
+- `href`: The URL or path of the linked page or resource.
+- `target`: Specifies where to open the linked document (_self by default or _blank to open in a new tab).
 
 ### Example:
 ```html

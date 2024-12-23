@@ -13,10 +13,10 @@ A form is defined using the `<form>` element. The `<form>` element can contain v
 ```
 
 ## Attributes of the `<form>` Element:
-- `**action**`: Specifies the URL to send the form data to when the form is submitted.
-- `**method**`: Defines the HTTP method to use when submitting the form. Common methods are:
-- `**GET**`: Sends data appended to the URL (visible).
-- `**POST**`: Sends data in the request body (invisible).
+- `action`: Specifies the URL to send the form data to when the form is submitted.
+- `method`: Defines the HTTP method to use when submitting the form. Common methods are:
+- `GET`: Sends data appended to the URL (visible).
+- `POST`: Sends data in the request body (invisible).
 
 action and method is optional it will be  discussed in backend
 
@@ -24,12 +24,12 @@ action and method is optional it will be  discussed in backend
 ### **Understanding a Normal HTML Form: Detailed Explanation**
 Forms are essential elements on a web page that allow users to submit data to a server. Whether it's for login, registration, feedback, or other user interactions, forms play a crucial role in data collection. In this guide, we will explore what a "normal" HTML form consists of and what each part does.
 
-## 1.` Basic Structure of a Normal HTML Form`
+## 1. Basic Structure of a Normal HTML Form
 A basic HTML form consists of the following key parts:
-- `**Form**` Tag (`<form>`): This tag wraps the form elements and specifies where and how the data will be sent.
-- `**<label>**`: The `<label>` element in HTML is used to define labels for form elements, such as text inputs, checkboxes, and radio buttons.
-- `**Input Elements**`: Various types of input fields where users can enter data.
-- `**Submit Button**`: A button that submits the data to the server.
+- `Form` Tag (`<form>`): This tag wraps the form elements and specifies where and how the data will be sent.
+- `<label>`: The `<label>` element in HTML is used to define labels for form elements, such as text inputs, checkboxes, and radio buttons.
+- `Input Elements`: Various types of input fields where users can enter data.
+- `Submit Button`: A button that submits the data to the server.
 
 
 ### HTML `<label>` Element: A Comprehensive Guide
@@ -41,24 +41,24 @@ The `<label>` element in HTML is used to define labels for form elements, such a
 ```
 
 ## Attributes of the `<label>` Element
-- `**for**`: The for attribute links the label to a specific form element. The value of the for attribute must match the id attribute of the associated input element.
+- `for`: The for attribute links the label to a specific form element. The value of the for attribute must match the id attribute of the associated input element.
 
 ## Why Use the `<label>` Element?
 
-- `**Accessibility**`: Associating labels with form elements improves the usability of forms for people with disabilities, making forms easier to navigate using screen readers and other assistive technologies.
-- `**Clickable Text**`: When a label is associated with a form element, the user can click on the label text to focus the corresponding input element. This is particularly useful for form fields that might be difficult to interact with, such as small checkboxes or radio buttons.
+- `Accessibility`: Associating labels with form elements improves the usability of forms for people with disabilities, making forms easier to navigate using screen readers and other assistive technologies.
+- `Clickable Text`: When a label is associated with a form element, the user can click on the label text to focus the corresponding input element. This is particularly useful for form fields that might be difficult to interact with, such as small checkboxes or radio buttons.
 
 
 ## Key Points:
 
-- `**Text labels**`: The text inside the `<label>` element describes the input it is associated with.
-- `**Linking with for and id**`: The for attribute of the `<label>` element must match the id of the corresponding form control (input, checkbox, radio button, etc.). This creates a connection between the label and the form element.
-- `**Nested inputs**`: When you nest an `<input>` element inside a `<label>`, the for attribute is not necessary, as the input is implicitly associated with the label.
+- `Text labels`: The text inside the `<label>` element describes the input it is associated with.
+- `Linking with for and id`: The for attribute of the `<label>` element must match the id of the corresponding form control (input, checkbox, radio button, etc.). This creates a connection between the label and the form element.
+- `Nested inputs`: When you nest an `<input>` element inside a `<label>`, the for attribute is not necessary, as the input is implicitly associated with the label.
 
 ## Best Practices
-- `**Use clear, descriptive labels**`: Ensure that labels describe the purpose of the form control accurately. For example, instead of using "Name", use "Full Name" if that's more specific.
-- `**Avoid duplicate id values**`: Ensure that each form element has a unique id so that labels are correctly associated with the right input.
-- `**Ensure accessibility**`: Always associate a label with each form input field. This helps users with disabilities understand what data is required.
+- `Use clear, descriptive labels`: Ensure that labels describe the purpose of the form control accurately. For example, instead of using "Name", use "Full Name" if that's more specific.
+- `Avoid duplicate id values`: Ensure that each form element has a unique id so that labels are correctly associated with the right input.
+- `Ensure accessibility`: Always associate a label with each form input field. This helps users with disabilities understand what data is required.
 
 ## **Conclusion**
 The `<label>` element is a simple yet powerful tool for creating accessible and user-friendly forms. By linking descriptive text to form elements, it enhances form usability for all users, including those who rely on screen readers or other assistive technologies.
