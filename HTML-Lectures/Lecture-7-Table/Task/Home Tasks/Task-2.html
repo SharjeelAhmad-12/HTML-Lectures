@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Library Catalog</title>
+</head>
+<body>
+    <h1>Library Catalog</h1>
+    <p>Welcome to the dynamic library catalog! Below is a list of books available in our library. Browse by genre, availability, and more.</p>
+    
+    <table border="1" cellpadding="10" cellspacing="0">
+        <caption>Library Book Catalog</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Book Title</th>
+                <th rowspan="2">Author</th>
+                <th rowspan="2">Genre</th>
+                <th rowspan="2">Year Published</th>
+                <th colspan="2">Availability</th>
+                <th rowspan="2">Shelf Location</th>
+            </tr>
+            <tr>
+                <th>Available</th>
+                <th>Checked Out</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Fiction Books Section -->
+            <tr>
+                <td rowspan="3">The Great Gatsby</td>
+                <td rowspan="3">F. Scott Fitzgerald</td>
+                <td rowspan="3">Fiction</td>
+                <td>1925</td>
+                <td>Yes</td>
+                <td>0</td>
+                <td>F3-12</td>
+            </tr>
+            <tr>
+                <td>1925</td>
+                <td>Yes</td>
+                <td>1</td>
+                <td>F3-13</td>
+            </tr>
+            <tr>
+                <td>1925</td>
+                <td>Yes</td>
+                <td>2</td>
+                <td>F3-14</td>
+            </tr>
+
+            <!-- Mystery Books Section -->
+            <tr>
+                <td rowspan="2">The Hound of the Baskervilles</td>
+                <td rowspan="2">Arthur Conan Doyle</td>
+                <td rowspan="2">Mystery</td>
+                <td>1902</td>
+                <td>Yes</td>
+                <td>0</td>
+                <td>M2-05</td>
+            </tr>
+            <tr>
+                <td>1902</td>
+                <td>Yes</td>
+                <td>1</td>
+                <td>M2-06</td>
+            </tr>
+
+            <!-- Fantasy Books Section -->
+            <tr>
+                <td rowspan="3">The Hobbit</td>
+                <td rowspan="3">J.R.R. Tolkien</td>
+                <td rowspan="3">Fantasy</td>
+                <td>1937</td>
+                <td>Yes</td>
+                <td>1</td>
+                <td>F4-11</td>
+            </tr>
+            <tr>
+                <td>1937</td>
+                <td>Yes</td>
+                <td>0</td>
+                <td>F4-12</td>
+            </tr>
+            <tr>
+                <td>1937</td>
+                <td>Yes</td>
+                <td>1</td>
+                <td>F4-13</td>
+            </tr>
+
+            <!-- Romance Books Section -->
+            <tr>
+                <td rowspan="2">Pride and Prejudice</td>
+                <td rowspan="2">Jane Austen</td>
+                <td rowspan="2">Romance</td>
+                <td>1813</td>
+                <td>Yes</td>
+                <td>3</td>
+                <td>R1-07</td>
+            </tr>
+            <tr>
+                <td>1813</td>
+                <td>Yes</td>
+                <td>4</td>
+                <td>R1-08</td>
+            </tr>
+
+            <!-- Science Fiction Books Section -->
+            <tr>
+                <td rowspan="2">Dune</td>
+                <td rowspan="2">Frank Herbert</td>
+                <td rowspan="2">Science Fiction</td>
+                <td>1965</td>
+                <td>Yes</td>
+                <td>5</td>
+                <td>S2-10</td>
+            </tr>
+            <tr>
+                <td>1965</td>
+                <td>Yes</td>
+                <td>2</td>
+                <td>S2-11</td>
+            </tr>
+
+            <!-- Non-Fiction Books Section -->
+            <tr>
+                <td rowspan="3">Sapiens: A Brief History of Humankind</td>
+                <td rowspan="3">Yuval Noah Harari</td>
+                <td rowspan="3">Non-Fiction</td>
+                <td>2011</td>
+                <td>Yes</td>
+                <td>6</td>
+                <td>N3-01</td>
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>Yes</td>
+                <td>3</td>
+                <td>N3-02</td>
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>Yes</td>
+                <td>0</td>
+                <td>N3-03</td>
+            </tr>
+        </tbody>
+
+        <!-- Summary of the Library Catalog -->
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Books Available</td>
+                <td>20</td>
+                <td>3</td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td colspan="4">Total Books Checked Out</td>
+                <td> - </td>
+                <td>15</td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td colspan="4">Total Books in Library</td>
+                <td> - </td>
+                <td> - </td>
+                <td>40</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

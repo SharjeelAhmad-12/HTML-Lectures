@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Task: Semantic Tags and Navigation Bar</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Your gateway to learning HTML with semantic tags!</p>
+    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#form-section">Contact Us</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="home">
+            <h2>Home Section</h2>
+            <article>
+                <h3>About the Website</h3>
+                <p>This website is built using semantic HTML elements to improve structure, accessibility, and SEO.</p>
+            </article>
+        </section>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <article>
+                <h3>Who Are We?</h3>
+                <p>We are a group of passionate developers dedicated to teaching HTML, CSS, and JavaScript.</p>
+            </article>
+        </section>
+        <!-- Contact Form Section -->
+        <section id="form-section">
+            <h2>Contact Us</h2>
+            <p>Please fill out the form below to get in touch with us.</p>
+            <form action="#" method="POST">
+                <!-- Name Field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <!-- Message Field -->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here..."></textarea><br><br>
+                <!-- Submit Button -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2025 Learning HTML. All Rights Reserved.</p>
+        <p>Contact us at: <a href="mailto:info@learninghtml.com">info@learninghtml.com</a></p>
+    </footer>
+</body>
+</html>
